@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		210D1DE3283D1E880063F953 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210D1DE2283D1E880063F953 /* main.swift */; };
+		21DFE1EB2846563D00BB9538 /* QuickUnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DFE1EA2846563D00BB9538 /* QuickUnion.swift */; };
+		21DFE1ED284659D800BB9538 /* QuickFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DFE1EC284659D800BB9538 /* QuickFind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		210D1DDF283D1E880063F953 /* DS&Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DS&Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		210D1DE2283D1E880063F953 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		21DFE1EA2846563D00BB9538 /* QuickUnion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickUnion.swift; sourceTree = "<group>"; };
+		21DFE1EC284659D800BB9538 /* QuickFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickFind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,18 @@
 			isa = PBXGroup;
 			children = (
 				210D1DE2283D1E880063F953 /* main.swift */,
+				21DFE1E92846561F00BB9538 /* Disjoint Set */,
 			);
 			path = "DS&Algorithm";
+			sourceTree = "<group>";
+		};
+		21DFE1E92846561F00BB9538 /* Disjoint Set */ = {
+			isa = PBXGroup;
+			children = (
+				21DFE1EA2846563D00BB9538 /* QuickUnion.swift */,
+				21DFE1EC284659D800BB9538 /* QuickFind.swift */,
+			);
+			path = "Disjoint Set";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DFE1ED284659D800BB9538 /* QuickFind.swift in Sources */,
 				210D1DE3283D1E880063F953 /* main.swift in Sources */,
+				21DFE1EB2846563D00BB9538 /* QuickUnion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
